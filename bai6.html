@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let doanhthu = +prompt("doanh thu ban hang");
+        if (doanhthu <= 200) {
+            hoahong = doanhthu * 3 / 100;
+        } else if (doanhthu > 200 && doanhthu <= 500) {
+            hoahong = doanhthu * 5 / 100;
+        } else if (doanhthu>500) {
+            hoahong = doanhthu * 0.1
+        }
+        alert(hoahong);
+    </script>
+</body>
+
+</html>

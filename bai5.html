@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let diemkiemtra=+prompt("nhap diem kiem tra")
+        let diemthigiuaki=+prompt("nhap diem kiem tra giua ki")
+        let diemthicuoiki=+prompt("nhap diem thi cuoi ki")
+        let tb=(diemkiemtra + diemthicuoiki*3 +diemthigiuaki*2)/6
+        if(tb>=8){
+            alert("hoc sinh gioi")
+        }else if(tb>=6.5 && tb<8){
+            alert("hoc sinh kha")
+        }else if (tb>=5 && tb<6.5){
+            alert('hoc sinh tb')
+        }else{
+            alert("hoc sinh yeu")
+        }
+    </script>
+</body>
+</html>
